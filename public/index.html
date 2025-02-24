@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sith's Recipe Book</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="grid1">
+
+    <h1>Sith's Recipe Book</h1>
+
+    <h2>Add Recipe</h2>
+    <input type="text" id="recipeTitle" placeholder="Title" />
+    <textarea id="recipeIngredients" placeholder="Ingredients"></textarea>
+    <textarea id="recipeInstructions" placeholder="Instructions"></textarea>
+    <button id="addButton">Add Recipe</button>
+    </div>
+
+    <div id="grid2">
+    <h2>Recipe List</h2>
+    <ul id="recipeList"></ul>
+    <script type="module" src="/src/app.js"></script>
+
+    <div id="chatbot-container">
+        <div id="chat-history"></div>
+        <input type="text" id="chat-input" placeholder="Ask me anything...">
+        <button id="send-btn">Send</button>
+      </div>
+  </body>
+</html>
